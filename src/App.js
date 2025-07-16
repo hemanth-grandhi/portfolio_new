@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import emailjs from 'emailjs-com';
 
 const NAV_LINKS = [
   { label: 'About', href: '#about' },
