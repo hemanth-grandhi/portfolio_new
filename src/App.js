@@ -287,19 +287,6 @@ function App() {
               <span className="flex items-center gap-2"><span role="img" aria-label="youtube">📺</span> Telugu Super Humans, <a href="https://www.youtube.com/@GbrtvEducationTelugu" target="_blank" rel="noopener noreferrer" className="hover:underline text-accent">GBR TV</a></span>
             </div>
           </div>
-          {/* Contact Form */}
-          <form onSubmit={sendEmail} className="w-full bg-white rounded-2xl p-8 flex flex-col gap-4 shadow border border-gray-100">
-            <div className="relative">
-              <input type="text" id="name" name="name" required placeholder=" " className="peer w-full bg-transparent border-b-2 border-accent text-[#18181b] py-2 px-1 focus:outline-none focus:border-accent transition" />
-            </div>
-            <div className="relative">
-              <input type="email" id="email" name="email" required placeholder=" " className="peer w-full bg-transparent border-b-2 border-accent text-[#18181b] py-2 px-1 focus:outline-none focus:border-accent transition" />
-            </div>
-            <div className="relative">
-              <textarea id="message" name="message" required rows="3" placeholder=" " className="peer w-full bg-transparent border-b-2 border-accent text-[#18181b] py-2 px-1 focus:outline-none focus:border-accent transition resize-none" />
-            </div>
-            <button type="submit" className="bg-accent text-white px-6 py-2 rounded-full font-semibold transition hover:bg-purple-700"></button>
-          </form>
         </section>
       </AnimatedSection>
     </div>
