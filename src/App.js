@@ -24,21 +24,6 @@ function AnimatedSection({ children, delay = 0 }) {
 }
 
 function App() {
-  const sendEmail = (e) => {
-    e.preventDefault();
-    emailjs.sendForm(
-      'service_123abc',      // Your real Service ID
-      'template_456def',     // Your real Template ID
-      e.target,
-      'QwErTy123456'         // Your real Public Key
-    ).then((result) => {
-        alert('Message sent!');
-    }, (error) => {
-        alert('Failed to send, please try again.');
-    });
-    e.target.reset();
-  };
-
   return (
     <div className="font-sans bg-[#f8f9fb] text-[#18181b] min-h-screen">
       {/* Sticky Navigation Bar with Animated Underline */}
